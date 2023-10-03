@@ -1,0 +1,10 @@
+GIT SET UP
+
+1. Open git bash in the desired folder, right click and open git bash. Make sure tha path in your git is correct.
+2. Create an empty repository using git init.
+3. Track all the changes using git add .
+4. Make a version of the repositry using "git commit." You can add a message in commits by typing -m "message in between." 
+5. Create an account on gitub.com.
+6. Create a new repositry in github.
+7. Copy the path of that repository.
+8. Create an allas using the url of that github repository.
