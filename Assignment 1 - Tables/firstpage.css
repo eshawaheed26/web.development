@@ -45,3 +45,7 @@ table, th, td {
     border: 1px solid black;
     border-collapse: separate;
 }
+
+th{
+background-color: rgb(123, 157, 221);
+}
