@@ -1,0 +1,47 @@
+.flex-container{
+    background: rgb(196, 232, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container1{
+    background: rgb(196, 232, 241);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.flex-container2{
+    background: rgb(196, 232, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: rgb(12, 123, 167);
+    border-radius: 1px;
+    padding: 50px;
+    width: 900px;
+    height: 30px;
+}
+
+.boxx{
+    background-color: rgb(12, 123, 167);
+    border-radius: 1px;
+    padding: 50px;
+    height: 205px;
+    width: 180px;
+}
+
+.boxx2{
+    width: 150px;
+}
+
+
+.boxy{
+    background-color: rgb(12, 123, 167);
+    border-radius: 1px;
+    padding: 50px;
+    width: 900px;
+    height: 30px;
+}
