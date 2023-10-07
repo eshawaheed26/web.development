@@ -34,3 +34,14 @@ h2{
     flex-wrap: wrap;
     gap: 5px;
 }
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    padding: 9px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
