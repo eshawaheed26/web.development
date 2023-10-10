@@ -1,0 +1,11 @@
+h1{
+    text-shadow: 0 0 30px red;
+}
+
+.text{
+    width: 300px;
+    border: 2px solid brown;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

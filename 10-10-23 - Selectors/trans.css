@@ -1,0 +1,16 @@
+.box{
+    display: grid;
+    width: 240px;
+    height: 240px;
+    margin: 100px;
+    background-color: palevioletred;
+    border-radius: 20%;
+    border: dotted purple;
+}
+
+.box:hover{
+    transform: scale(1.5);
+    transition: 2s;
+    opacity: 50%;
+}
+

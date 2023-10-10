@@ -1,0 +1,15 @@
+button{
+    background-color: rgb(151, 211, 151);
+}
+.mybutton:hover{
+    background-color:pink;
+    color: purple;
+    border-radius: 8px;
+    border-color: solid black;
+    
+}
+
+/* .wrapper:hover{
+    background-color: rgb(180, 236, 236);
+    
+}
