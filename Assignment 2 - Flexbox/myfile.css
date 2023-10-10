@@ -1,3 +1,10 @@
+.flex-container0{
+    background:rgb(196, 232, 241);
+    text-align: center;
+    font-size: 25px;
+    
+}
+
 .flex-container{
     background: rgb(196, 232, 241);
     display: flex;
@@ -7,8 +14,8 @@
 .flex-container1{
     background: rgb(196, 232, 241);
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    gap: 20px;
 }
 
 .flex-container2{
@@ -21,20 +28,21 @@
     background-color: rgb(12, 123, 167);
     border-radius: 1px;
     padding: 50px;
-    width: 900px;
-    height: 30px;
+    width: 1070px;
+    height: 15px;
+    margin: 20px;
 }
 
 .boxx{
     background-color: rgb(12, 123, 167);
     border-radius: 1px;
     padding: 50px;
-    height: 205px;
-    width: 180px;
+    height: 193px;
+    width: 165px;
 }
 
 .boxx2{
-    width: 150px;
+    width: 500px;
 }
 
 
@@ -42,6 +50,7 @@
     background-color: rgb(12, 123, 167);
     border-radius: 1px;
     padding: 50px;
-    width: 900px;
-    height: 30px;
+    width: 1070px;
+    height: 15px;
+    margin: 20px;
 }
