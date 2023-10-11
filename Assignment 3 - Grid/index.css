@@ -1,8 +1,12 @@
-header{
+.main header{
     font-size: 15px;
-    background-color: white;
-    height: 0px;
+    /* background-color: white; */
     text-align: end;
-    padding-top: 80px;
     padding-right: 40px;
+}
+
+.main img{
+    width: 98px;
+    height: 98px;
+    position: relative; left: 40px;
 }
