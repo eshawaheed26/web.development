@@ -16,9 +16,6 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-/*  text-align: center;
-    align-items: center;
-    align-content: center; */
 }
 
 .flex-container2{
@@ -42,6 +39,9 @@
     padding: 50px;
     height: 193px;
     width: 165px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .boxx2{
