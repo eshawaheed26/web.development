@@ -2,11 +2,22 @@
     font-size: 15px;
     /* background-color: white; */
     text-align: end;
-    padding-right: 40px;
+    padding-right: 25px;
 }
 
 .main img{
-    width: 98px;
-    height: 98px;
-    position: relative; left: 40px;
+    width: 140px;
+    height: 60px;
+    position: relative; left: 25px;
+}
+
+.container{
+    display: grid;
+    background-color: rgb(39, 53, 61);
+    grid-template-rows: 300px;
+}
+
+.grid-item img{
+    height: 100%;
+    width: 50%;
 }
