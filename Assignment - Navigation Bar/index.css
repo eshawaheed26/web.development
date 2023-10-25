@@ -17,7 +17,7 @@ nav{
 }
 
 label.logo{
-    color: white;
+    color: blue;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -36,15 +36,15 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: blue;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 
-a.active,a:hover{
-    background: #1b9bff;
+a:hover{
+    background: white;
     transition: .5s;
 
 }
