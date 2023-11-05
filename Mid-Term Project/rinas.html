@@ -6,20 +6,65 @@
     <title>Rinas Kitchenette | Login / Signup </title>
     <link rel="icon" href="2.jpeg">
     <link rel="stylesheet" href="rinas.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu">
+    <style>
+        body{
+            font-family: 'Ubuntu';
+        }
+    </style>
 </head>
 <body>
 <nav>
-    <ul>
-        <!-- <img src="1.webp" width="100px"> -->
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">RINA'S GIFT BOX</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">LOCATIONS</a></li>
-        <li><a href="#">CONTACT</a></li>
-     <!--   <li><a href="#">ORDER NOW</a></li>-->
+<ul>
+    <li><a><img src="1.webp" width="100px" style="margin-top: 14.5px; margin-left: 108px;"></a></li>
+</ul>
+<ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">MENU</a></li>
+    <li><a href="#">RINA'S GIFT BOX</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">LOCATIONS</a></li>
+    <li><a href="#">CONTACT</a></li>
+    <!--   <li><a href="#">ORDER NOW</a></li>-->
     </ul>
+<a href="#" class="image-button">
+    <img src="login.png" alt="Login/Signup" title="Login/Signup">
+    <span class="badge">0</span>
+    <img src="Cart.png" alt="Cart" title="Cart">
+</a>
+<a href="#" class="order-button">ORDER NOW</a>
 </nav>
+
+<div class="login-box">
+    <h2>Login to your Account</h2>
+    <form>
+        <div class="input-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" name="email" required>
+        </div>
+        <div class="input-container">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" name="password" required>
+        </div>
+        <button type="submit" class="login-button">Login</button>
+    </form>
+    <div class="or-line">
+        <hr>
+        <span>or</span>
+        <hr>
+    </div>
+    <div class="social-buttons">
+        <button class="google-button">Sign in with Google</button>
+        <button class="facebook-button">Login with Facebook</button>
+    </div>
+</div>
+</body>
+</html>
 
 </body>
 </html>
+
+
+
+
+

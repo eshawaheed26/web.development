@@ -13,19 +13,161 @@ nav{
 }
 
 nav ul{
+    display: flex;
     float:left;
-    margin-left: 150px;
+    margin-left: 9px;
 } 
 
 nav ul li{
     display: inline-block;
     line-height: 110px;
 }
-    
+
 nav ul li a{
     color: white;
     font-size: 14px;
     font-weight: 400;
     padding: 0px 48px 0px 0px;
     text-transform: uppercase;
+}
+
+.image-button img {
+    width: 24px;
+    height: 24px;
+    margin: 9px;
+    position: relative; 
+    top: 36px;
+    left: 48px;
+}
+
+.order-button {
+    background-color: rgb(116 135 88);
+    color: white; 
+    padding: 16px 36px; 
+    border: none; 
+    border-radius: 3px;
+    margin-left: 70px; 
+    font-size: 14px;
+    position: relative;
+    top: 16px;
+}
+
+.badge {
+    background-color:  rgb(116 135 88); 
+    color: white; 
+    font-size: 12px; 
+    font-weight: 600;
+    border-radius: 50%; 
+    padding: 0px 6px; 
+    position: absolute;
+    top: 9px; 
+    left: 117px; 
+    z-index: 1; 
+    line-height: 18px;
+  }
+  
+  .image-button {
+    position: relative; 
+  }
+
+
+ /* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+} */
+
+.login-box {
+    max-width: 463px;
+    margin: 0 auto;
+    padding: 28px;
+    border: 1px solid rgba(233, 228, 228, 0.992);
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    height: 550px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    background-color: #f3f2f2;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 13px;
+    margin-left: 15px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #f3f2f2;
+    border-radius: 5px;
+    background-color:#f3f2f2;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.login-button {
+    background-color: #00e60c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.or-line {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+hr {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+}
+
+/* span {
+    margin: 0 10px;
+} */
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.google-button, .facebook-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.social-buttons .google-button {
+    color: #4285f4;
+}
+
+.social-buttons .facebook-button {
+    color: #3b5998;
 }
