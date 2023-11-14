@@ -7,3 +7,9 @@ function addTwoNums(){
     var c = a + b;
     console.log(c);
 } addTwoNums();
+
+// It can be done either way.
+function addTwoNums(a,b){
+    var c = a + b;
+    console.log(c);
+} addTwoNums(10,10);
