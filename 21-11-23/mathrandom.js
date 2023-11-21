@@ -1,5 +1,5 @@
 Math.random();
-var decimal = Math.random() * 10;
+var decimal = Math.random() * 100;
 var rounded = Math.trunc(decimal);
 console.log(rounded);
 //console.log(decimal * 10);
