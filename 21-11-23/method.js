@@ -6,9 +6,13 @@ console.log(car);
 car.turnTheKey = function(){
     console.log("The engine is running")
 }
-car.lightsOn = function(){
-    console.log("The lights are on")
+car.lightsOn = function(i){
+    if (i === 1){
+    console.log("The lights are on") }
+    else if (i === 0){
+        console.log("The lights are off") }
 }
 console.log(car);
 car.turnTheKey();
-car.lightsOn();
+car.lightsOn(1);
+// car.lightsOn(0);
