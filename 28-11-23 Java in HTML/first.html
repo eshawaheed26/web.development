@@ -18,6 +18,7 @@ function addTodo() {
     let textbox=document.getElementById('todo-title');
     let title= textbox.value;
     todos.push(title);
+    
     todos.forEach(function (todoTitle){
     let element = document.createElement('div');
     element.innerText=todoTitle;
