@@ -5,8 +5,10 @@ constructor(color, speed){
 }
 
 turboOn(){
-    console.log("Turbo is on!")
+console.log("Turbo is on!") 
 }
-} const car1 = new Car ("red",120)
+}
 
-car1.color();
+const car1 = new Car ("red",120)
+
+car1.turboOn();
