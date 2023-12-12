@@ -5,7 +5,6 @@ import Second from "./components/second/Second";
 let a="NOBODY";
 function App() {
   function handleClick(){
-    {console.log('Buttion is pressed')}
 
   }
   return (
