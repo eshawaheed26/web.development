@@ -1,13 +1,13 @@
 import React from 'react'
 import "./first.css"
-const Myfirst = () => {
+const Myfirst = (props) => {
+ 
   return (
+    <>
     <div className='myfirst-main'>
-    <div>Myfirst Component of React
-        <h1>Esha Waheed</h1>
+    <button onClick={props.clik}>My button</button>
     </div>
-    <div>LALALA</div>
-    </div>
+    </>
   )
 }
 

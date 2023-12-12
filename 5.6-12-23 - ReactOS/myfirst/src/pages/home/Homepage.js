@@ -5,28 +5,16 @@ import Myfirst from '../../components/myfirst/Myfirst'
 import Second  from '../../secondcomp/Second'
 import  Third  from '../../thirdcomp/Third'
 
-// let a=5;
+let a="";
 
 export const Homepage = (props) => {
+  function handleClick (){
+    {a='You pressed the button'}
+    {console.log(a)}
+  }
   return (
     <div className='home-main'>
-      <div> <Myfirst/> </div>
-      <div>
-<Myfirst/>
-</div>
-
-<div>
-  <Myfirst/>
-  <Second value={props.pico} />
-  {/* <Third/> */}
-</div>
-
-<div>
-  <br/>
-  <br/>
-  The Esha Waheed
-  <Third/>
-</div>
+<Myfirst clik={handleClick}/>
     </div>
   )
 }
