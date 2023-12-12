@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './second.css'
 const Second = () => {
   return (
-    <div>Second</div>
+    <div className='second-1'>Second</div>
   )
 }
 

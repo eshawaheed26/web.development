@@ -1,11 +1,12 @@
 import React from 'react'
-
-const FirstComponent = () => {
+import './first.css'
+const FirstComponent = (props) => {
   return (
-  <>  <div>
+  <>  <div className='first-1'>
         FirstComponent
     </div>
-    <h1>This is my 4th Semester</h1>
+    <h1>This is my 4th Semester <br/><br/> {props.abc} </h1>
+    <button className='my-button' onClick={props.clik}>My Button</button>
     </>
   )
 }
