@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Myfirst from './components/myfirst/Myfirst';
 import { Homepage } from './pages/home/Homepage';
+import pico from './resource/12.png'
 
 
 function App() {
   return (
     <div className="App">
-THE ESHA WAHEED
-<Homepage/>
+<Homepage pico={pico}/>
     </div>
   );
 }

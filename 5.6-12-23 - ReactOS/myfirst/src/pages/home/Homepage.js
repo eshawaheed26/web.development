@@ -1,12 +1,13 @@
 import React from 'react'
 import "./home.css"
+
 import Myfirst from '../../components/myfirst/Myfirst'
 import Second  from '../../secondcomp/Second'
 import  Third  from '../../thirdcomp/Third'
 
-let a=5;
+// let a=5;
 
-export const Homepage = () => {
+export const Homepage = (props) => {
   return (
     <div className='home-main'>
       <div> <Myfirst/> </div>
@@ -16,7 +17,7 @@ export const Homepage = () => {
 
 <div>
   <Myfirst/>
-  <Second value={a} />
+  <Second value={props.pico} />
   {/* <Third/> */}
 </div>
 
